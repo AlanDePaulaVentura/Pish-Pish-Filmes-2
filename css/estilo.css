@@ -1,0 +1,228 @@
+body {
+    background-color: rgb(20, 20, 20);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#splash {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgb(20, 20, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    transition: opacity 1s ease-out;
+}
+
+#splash img {
+    width: 200px;
+}
+
+#content {
+    display: none;
+}
+
+.container-site {
+    flex: 1;
+}
+
+#header a[aria-current="page"] {
+    text-decoration: underline;
+    color: #0692f0;
+}
+
+.entrarcomredessociais {
+    padding-top: 10px;
+}
+
+.entrarcomredessociais h3 {
+    text-align: center;
+}
+
+.btn-bd-primary {
+    background-color: rgb(202, 58, 202);
+    color: white;
+}
+
+h1 {
+    color: #0692f0;
+}
+
+h2 {
+    color: #0692f0;
+}
+
+#header {
+    background-color: rgba(255, 255, 255, 0.007);
+}
+
+#header a {
+    color: white;
+    font-size: 1.2em;
+}
+
+#header a:hover {
+    color: #6bb9ec;
+}
+
+#header .dropdown-perfil a {
+    color: black;
+    font-size: 1.0em;
+}
+
+.main {
+    padding-top: 4%;
+}
+
+#nav-title {
+    position: static;
+    padding-top: 8%;
+    padding-left: 0.5em;
+    padding-right: 0.8em;
+}
+
+/* Estilo para esconder os resultados inicialmente */
+#resultados {
+    display: none;
+}
+
+.d-flex {
+    padding-right: 10px;
+}
+
+.dropdown-menu {
+    right: 0 !important;
+    left: auto !important;
+}
+
+/* Estilo para a lista de resultados */
+#resultados ul {
+    background-color: rgba(255, 255, 255, 0.178);
+    list-style-type: none;
+    padding: 0;
+}
+.dropdown-toggle::after {
+    color: white;
+}
+#resultados img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cadastro-perfil {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cadastro-perfil label {
+    color: white;
+}
+
+#menu {
+    margin-bottom: 5px;
+    background-attachment: fixed;
+
+}
+
+#termosecondicoes {
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+}
+
+#rodape p {
+    color: white;
+}
+
+#rodape span {
+    color: yellowgreen;
+}
+
+#rodape {
+    width: 750px;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+
+}
+
+#introducao_ao_site {
+    text-align: center;
+    padding: 0%;
+    padding-left: 20%;
+    padding-right: 20%;
+    width: 100%;
+    bottom: 0px;
+    top: 0%;
+}
+
+#introducao_ao_site h2 {
+    font-size: large;
+    color: white;
+}
+
+#introducao_ao_site h1 {
+    color: white;
+}
+
+#loginModal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.modal-content input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.modal-content button {
+    width: 100%;
+    padding: 10px;
+    background: #222;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-content button:hover {
+    background: #444;
+}
