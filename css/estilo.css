@@ -9,7 +9,7 @@ body {
     height: 100vh;
 }
 
-@media (max-width:991px) {#splash {
+    #splash {
     position: fixed;
     top: 0;
     left: 0;
@@ -22,7 +22,7 @@ body {
     z-index: 1000;
     transition: opacity 1s ease-out;
 }
-}
+
 
 #splash img {
     width: 200px;
