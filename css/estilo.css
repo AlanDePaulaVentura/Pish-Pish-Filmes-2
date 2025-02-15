@@ -30,7 +30,7 @@ body {
 }
 
 .navbar-toggler-icon {
-    background-color: rgb(56, 56, 56, 0.64);
+    border-color: rgb(56, 56, 56, 0.64);
 }
 
 #content {
