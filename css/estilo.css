@@ -32,6 +32,11 @@ body {
 .navbar-toggler-icon {
     border-color: rgb(56, 56, 56, 0.64);
 }
+#navbarSupportedContent {
+    position: fixed;
+    z-index: 9999;
+    display: flex;
+}
 
 #content {
     display: none;
