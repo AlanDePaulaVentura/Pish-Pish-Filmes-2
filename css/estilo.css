@@ -9,7 +9,7 @@ body {
     height: 100vh;
 }
 
-    #splash {
+#splash {
     position: fixed;
     top: 0;
     left: 0;
@@ -23,16 +23,9 @@ body {
     transition: opacity 1s ease-out;
 }
 
-
 #splash img {
-    max-width: 80%;
-    max-height 80vh;
-}
-
-.navbar-toggler-icon {
-    border-color: rgb(56, 56, 56, 0.64);
-}
-#navbarSupportedContent {
+    width: 50%;
+    height: 50vh;
 }
 
 #content {
@@ -62,17 +55,12 @@ body {
 }
 
 h1 {
-    color: #0692f0;
+    color: #0f0f0f;
 }
 
 h2 {
     color: #0692f0;
 }
-
-#header {
-    background-color: rgba(255, 255, 255, 0.007);
-}
-
 #header a {
     color: white;
     font-size: 1.2em;
@@ -97,6 +85,10 @@ h2 {
     padding-left: 0.5em;
     padding-right: 0.8em;
 }
+.header {
+    position: absolute;
+    display: flex;
+}
 
 /* Estilo para esconder os resultados inicialmente */
 #resultados {
@@ -108,7 +100,7 @@ h2 {
 }
 
 .dropdown-menu {
-    right: 0 !important;
+    right: auto !important;
     left: auto !important;
 }
 
@@ -118,15 +110,18 @@ h2 {
     list-style-type: none;
     padding: 0;
 }
+
 .dropdown-toggle::after {
     color: white;
 }
+
 #resultados img {
     max-width: 100%;
     height: auto;
 }
 
 .cadastro-perfil {
+    padding-top: 4%;
     width: 80%;
     margin: 0 auto;
 }
@@ -145,6 +140,7 @@ h2 {
     width: 80%;
     margin: 0 auto;
     color: white;
+    padding-top: 4%;
 }
 
 #rodape p {
@@ -233,4 +229,16 @@ h2 {
 
 .modal-content button:hover {
     background: #444;
+}
+
+#loginModal .card {
+    background-color: white !important;
+    /* Garante que a cor do card não seja herdada */
+    border-radius: 10px;
+    /* Ajuste conforme necessário */
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    /* Garante que não herde flex do modal */
+    text-align: center;
 }

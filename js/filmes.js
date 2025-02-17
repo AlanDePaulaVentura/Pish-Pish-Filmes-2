@@ -27,3 +27,4 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     }
   });
+  //Se Perfil logado = foto perfil
